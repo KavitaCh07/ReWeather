@@ -1,0 +1,74 @@
+.recent-search-part {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 64vh;
+    gap: 1.5rem;
+}
+
+.heart {
+    display: flex;
+    height: 17px;
+    width: 17px;
+}
+
+@media screen and (max-width:780px) {
+    /* .favourite-part{
+        display: non
+    } */
+
+
+    .fav-mob-page {
+        display: flex;
+        background-color: white;
+        padding: 1.5rem;
+        align-items: center;
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+    }
+
+    .fav-div {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        gap: 2.3rem;
+        /* padding-right: 1rem; */
+    }
+
+    .fav-input {
+        color: #292F33;
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 500;
+        letter-spacing: 0;
+        line-height: 24px;
+        text-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.15);
+    }
+
+    .fav-back {
+        display: flex;
+        height: 25px;
+        width: 25px;
+    }
+
+    .fav-text {
+        color: #292F33;
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 500;
+        letter-spacing: 0;
+        line-height: 24px;
+        text-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.15);
+    }
+
+    .fav-search {
+        display: flex;
+        height: 25px;
+        width: 25px;
+    }
+
+}

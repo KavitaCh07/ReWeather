@@ -1,0 +1,74 @@
+.mobile-date-div {
+    display: none;
+}
+
+.temperature-div {
+    display: flex;
+    align-items: baseline;
+    /* justify-content: center; */
+    gap: 0.4rem;
+}
+
+.temperature-degree {
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 64px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 75px;
+}
+
+.fav-img {
+    display: flex;
+    height: 20px;
+    width: 20px;
+}
+
+.sum-img {
+    display: flex;
+    /* width: 215px; */
+    /* height: 120px; */
+    align-items: center;
+    justify-content: center;
+}
+
+.add-to-fav-active {
+    color: #FAD05B;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 15px;
+}
+
+/* .weather-icon {
+    display: flex;
+    width: 55px;
+    height: 59px;
+    /* align-items: center; */
+/* justify-content: center; */
+*/ .switch-temperature {
+    margin-bottom: 11px;
+}
+
+.react-switch-bg {
+    border: 1px solid white !important;
+    background-color: transparent !important;
+}
+
+@media screen and (max-width:780px) {
+    .mobile-date-div {
+        display: flex !important;
+    }
+
+    .mob-date {
+        opacity: 0.6;
+        color: #FFFFFF;
+        font-family: Roboto;
+        font-size: 13px;
+        letter-spacing: 1.5px;
+        line-height: 15px;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+}
